@@ -12,5 +12,24 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         />
-
+    <TextView
+        android:id="@+id/proxy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show list of sensors"
+        android:onClick="dothis"
+        android:layout_above="@id/listshow"
+        />
+    <TextView
+        android:id="@+id/listshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
 </RelativeLayout>
